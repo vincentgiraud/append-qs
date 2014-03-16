@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Your Plugin Name
-Plugin URI: http://github.com/your_name/your_plugin
-Description: One line description of your plugin
-Version: 1.0
-Author: Your Name
-Author URI: http://your-site-if-any/
+Plugin Name: <%= extName %>
+Plugin URI: <%= extUrl %>
+Description: <%= extDesc %>
+Version: <%= extVersion %>
+Author: <%= authorName %>
+Author URI: <%= authorUrl %>
 */
 
 // No direct call

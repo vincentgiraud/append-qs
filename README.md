@@ -1,22 +1,22 @@
-Title of your plugin
-====================
+<%= extName %>
+==============
 
-Plugin for [YOURLS](http://yourls.org) `<here: min-version if applicable>`. 
+Plugin for [YOURLS](http://yourls.org) `<%= yourlsMinVersion %>+`. 
 
 Description
 -----------
-*Here*: replace this paragraph with a detailed explanation of what your plugin does: what it improves, what it adds, or the default behavior it replaces. Use clear and short sentences. Be convincing.
+<%= extDesc %>
 
 Installation
 ------------
-1. In `/user/plugins`, create a new folder named `<here: your plugin folder name>`.
+1. In `/user/plugins`, create a new folder named `<%= extSlugName %>`.
 2. Drop these files in that directory.
-3. Go to the Plugins administration page ( *eg* `http://sho.rt/admin/plugins.php` ) and activate the plugin.
+3. Go to the Plugins administration page (*eg* `http://sho.rt/admin/plugins.php`) and activate the plugin.
 4. Have fun!
 
 License
 -------
-*Here*: your license type. Feel free to use YOURLS' license, aka *"Do whatever the hell you want with it"*.
+<%= license %>
 
 One more thing
 --------------
