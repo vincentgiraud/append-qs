@@ -14,7 +14,3 @@ Installation
 2. Drop these files in that directory.
 3. Go to the Plugins administration page ( *eg* `http://sho.rt/admin/plugins.php` ) and activate the `Append Me` plugin.
 4. Have fun!
-
-License / disclaimers
--------
-No license, no warranty.  Use at your own risk.  Feel free to fork.
