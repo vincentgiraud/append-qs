@@ -1,7 +1,7 @@
 Append-Me
 ====================
 
-Plugin for [YOURLS](http://yourls.org), tested on 1.7.1. 
+Plugin for [YOURLS](http://yourls.org), tested on 1.7. 
 
 Description
 -----------
