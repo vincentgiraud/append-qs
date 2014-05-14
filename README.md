@@ -5,8 +5,17 @@ Plugin for [YOURLS](http://yourls.org), tested on 1.7.
 
 Description
 -----------
-Append Query String does what it says - just add a query string and it'll be appended as-is.  For example, `http://sho.rt/shorturl?query=value` would become
-`http://reallylongurl/blahblahblah[...]query=value`.
+Append Query String does what it says - just add a query string and it'll be appended as-is.  For example,
+<br>`http://sho.rt/shorturl?query=value`
+<br>would become
+<br>`http://reallylongurl/blahblahblah[...]query=value`.  
+
+NOTE: This appends the query string as entered to the long URL, minus the question mark - if you want your query string appended as an actual query string in your destination URL you need to include it in your YOURLS long URL.   It was primarily created as a way to append a unique number to a URL of a third-party ticketing system my company is using in the minimum of space, so:<br>
+`http://ITticketing.system/incident/show?query=number=INC00001`<br>
+could be specified as:<br>
+`http://sho.rt/inc?00001`<br>
+instead of having to type:<br>
+`http://sho.rt/inc?query=number=INC00001`
 
 Installation
 ------------
